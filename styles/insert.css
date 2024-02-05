@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    box-shadow: 0px 0px 4px gray;
+    padding: 16px 36px;
+    background-color: white;
+}
+nav h2{
+    color: rgb(5, 5, 149);
+    font-size: 32px;
+}
+main{
+    padding: 24px 46px;
+}
+
+#shoe-action h3{
+    color: rgb(5, 5, 149);
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+#add-shoes form{
+    padding: 8px;
+    box-sizing: border-box;
+    width: 430px;
+    margin: 20px auto; 
+    color: white;
+    box-shadow: 0 0 4px gray;
+    border-radius: 12px;
+}
+
+#add-shoes form input,#add-shoes label{
+    display: block;
+    margin: 8px 0;
+    color: black;
+}
+#add-shoes form input{
+    box-sizing: border-box;
+    padding: 12px 4px;
+    border: 2px solid rgb(5, 5, 149);
+    width: 100%;
+}
+#add-shoes form label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#add-shoes form textarea{
+    resize: none;
+    box-sizing: border-box;
+    padding: 12px 4px;
+    border: 2px solid rgb(5, 5, 149);
+    width: 100%;
+}
+#add-shoes form button{
+    border: none;
+    margin-top: 5px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background: rgb(5, 5, 149);
+    text-align: center;
+    color: white;
+    padding: 14px 0;
+    border-radius: 6px;
+}
+.error-message{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 1px;
+}

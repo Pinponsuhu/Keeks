@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    box-shadow: 0px 0px 4px gray;
+    padding: 16px 36px;
+    background-color: white;
+}
+nav h2{
+    color: rgb(5, 5, 149);
+    font-size: 32px;
+}
+main{
+    padding: 24px 46px;
+}
+#shoe-action{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#shoe-action h3{
+    color: rgb(5, 5, 149);
+    font-size: 24px;
+}
+#shoe-action a{
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: rgb(5, 5, 149);
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#all-shoes table{
+    margin-top: 12px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(5, 5, 149);
+}
+#all-shoes table tr th{
+    padding: 12px 6px;
+    border: 2px solid rgb(5, 5, 149);
+}
